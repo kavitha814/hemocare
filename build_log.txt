@@ -1,0 +1,25 @@
+Running Gradle task 'assembleRelease'...                        
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> [CXX1101] NDK at C:\Users\Admin\AppData\Local\Android\sdk\ndk\27.0.12077973 did not have a source.properties file
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 3s
+Running Gradle task 'assembleRelease'...                            4.0s
+
+┌─ Flutter Fix ───────────────────────────────────────────────────────────────┐
+│     [!] This is likely due to a malformed download of the NDK.              │
+│     This can be fixed by deleting the local NDK copy at:                    │
+│     C:\Users\Admin\AppData\Local\Android\sdk\ndk\27.0.12077973              │
+│     and allowing the Android Gradle Plugin to automatically re-download it. │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+Gradle task assembleRelease failed with exit code 1

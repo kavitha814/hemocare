@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792280118408",
+    "project_id": "careconnect-100fd",
+    "storage_bucket": "careconnect-100fd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792280118408:android:23ce863c6dbbde1ace9b3d",
+        "android_client_info": {
+          "package_name": "com.example.antigravityapp.v6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUZVhqrg7I5d2mjWOsUVw9oeS84XMgqe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
