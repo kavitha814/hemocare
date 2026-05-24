@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HemoCare — Healthcare, Redefined.</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="grid-overlay"></div>
+
+  <nav class="navbar container">
+    <div class="logo">
+      <img src="assets/logo.png" alt="HemoCare Logo" class="logo-img">
+      <span>HemoCare</span>
+    </div>
+    <div class="nav-links">
+      <a href="#features">Features</a>
+      <a href="#showcase">Showcase</a>
+      <a href="#download">Download</a>
+    </div>
+    <a href="#download" class="btn-get-app">Get App</a>
+  </nav>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-content">
+        <div class="tech-tag">
+          <span class="dot"></span> Flutter · Firebase · Android
+        </div>
+
+        <h1 class="hero-title">
+          Healthcare,<br>
+          <span class="gradient-text">Redefined.</span>
+        </h1>
+
+        <p class="hero-description">
+          A comprehensive health companion. Real-time ECG & hemoglobin monitoring, smart medicine reminders, and an
+          integrated blood donation network — all in one powerful app.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="downloads/HemoCare.zip" download class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Download Android APK
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat"><strong>15+</strong> Medical Tools</div>
+          <div class="stat"><strong>Live</strong> Hardware Sync</div>
+          <div class="stat"><strong>Firebase</strong> Cloud Sync</div>
+        </div>
+      </div>
+
+      <div class="hero-image-container">
+        <div class="glow-effect"></div>
+        <img src="assets/mockup.png" alt="HemoCare App Mockup" class="mockup-img">
+
+        <div class="floating-card card-1">
+          <div class="card-icon check-bg">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </div>
+          <div class="card-text">
+            <strong>14.2 g/dL</strong>
+            <span>Normal Hemoglobin</span>
+          </div>
+        </div>
+
+        <div class="floating-card card-2">
+          <div class="card-icon heart-bg">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="white" stroke="white" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+              </path>
+            </svg>
+          </div>
+          <div class="card-text">
+            <strong>72 BPM</strong>
+            <span>Steady Heart Rate</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features-section container">
+      <div class="features-header">
+        <h2 class="section-title">Everything you need</h2>
+        <p class="section-subtitle">
+          Everything you need for personal health management and emergency care. Built with real-time sensor integration
+          and a life-saving blood donation network.
+        </p>
+      </div>
+
+      <div class="highlights-grid">
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e57373" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+            </svg>
+          </div>
+          <div class="highlight-content">
+            <h4>Real-time Health Monitoring</h4>
+            <p>Connects with MAX30100 & ESP32 sensors for precise, real-time Heart Rate, ECG, and Hemoglobin tracking.
+            </p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e57373" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+          </div>
+          <div class="highlight-content">
+            <h4>Blood Donation Network</h4>
+            <p>Register as a donor, submit urgent blood requests, and receive instant emergency broadcast notifications.
+            </p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e57373" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="8" y1="21" x2="16" y2="21"></line>
+              <line x1="12" y1="17" x2="12" y2="21"></line>
+            </svg>
+          </div>
+          <div class="highlight-content">
+            <h4>Smart Health Assistant</h4>
+            <p>Features an intelligent AI chat, customizable medicine reminders, and a comprehensive vaccination
+              schedule tracker.</p>
+          </div>
+        </div>
+        <div class="highlight-item">
+          <div class="highlight-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#e57373" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+            </svg>
+          </div>
+          <div class="highlight-content">
+            <h4>Emergency Services</h4>
+            <p>Quickly locate nearby hospitals, access disease information, and connect with emergency contacts in
+              seconds.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="tech-pills-center">
+        <div class="pill">Flutter</div>
+        <div class="pill">Firebase</div>
+        <div class="pill">ESP32 & Sensors</div>
+        <div class="pill">AI Assistant</div>
+      </div>
+    </section>
+
+    <section id="showcase" class="showcase-section container">
+      <div class="features-header">
+        <h2 class="section-title">App Showcase</h2>
+        <p class="section-subtitle">
+          Take a look inside the HemoCare app. A clean, modern interface designed for ease of use in critical moments.
+        </p>
+      </div>
+
+      <div class="app-gallery">
+        <div class="gallery-column">
+          <div class="gallery-item">
+            <img src="assets/screen1.png" alt="HemoCare Dashboard Screenshot">
+          </div>
+          <div class="gallery-caption">
+            <h3>Live Dashboard</h3>
+            <p>Real-time ECG and vitals monitoring</p>
+          </div>
+        </div>
+        <div class="gallery-column">
+          <div class="gallery-item">
+            <img src="assets/screen2.png" alt="HemoCare Blood Donation Screenshot">
+          </div>
+          <div class="gallery-caption">
+            <h3>Blood Network</h3>
+            <p>Connect with local donors instantly</p>
+          </div>
+        </div>
+        <div class="gallery-column">
+          <div class="gallery-item">
+            <img src="assets/screen3.png" alt="HemoCare Hospitals Screenshot">
+          </div>
+          <div class="gallery-caption">
+            <h3>Emergency Care</h3>
+            <p>Find nearby healthcare facilities</p>
+          </div>
+        </div>
+        <div class="gallery-column">
+          <div class="gallery-item">
+            <img src="assets/screen4.png" alt="HemoCare AI Chat Screenshot">
+          </div>
+          <div class="gallery-caption">
+            <h3>AI Assistant</h3>
+            <p>Instant health insights & reminders</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="logo">
+      <img src="assets/logo.png" alt="HemoCare Logo" class="logo-img">
+      <span>HemoCare</span>
+    </div>
+    <p>Designed for seamless patient care. Built with ❤️.</p>
+  </footer>
+
+</body>
+
+</html>
